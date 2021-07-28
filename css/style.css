@@ -44,6 +44,78 @@ button.purchase-button {
 /* Fetured-Area CSS */
 
 section.fetured-area {
-    background: #E5E5E5;
+    background: #fff;
     padding: 80px 0;
+}
+.serction-title {
+    margin-bottom: 100px;
+}
+.serction-title h2 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #000;
+}
+
+.serction-title p {
+    font-size: 14px;
+    color: #E76F51;
+    font-weight: 600;
+    position: relative;
+}
+
+.serction-title p:before {
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 1px;
+    background: #E76F51;
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.fetured-area img {
+    width:288px;
+}
+.grayscale-images {
+    filter:grayscale(100%)
+}
+
+/* Latest News-Area css */
+.news-area {
+    margin-bottom: 40px;
+}
+section.news-area h2 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #0A0826;
+    margin: 48px 0;
+}
+section.news-area h5 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #18191F;
+}
+
+section.news-area p {
+    font-size: 16px;
+    font-weight: normal;
+    color: #6C6C6C;
+}
+
+button.border-button {
+    border: 0;
+    border: 2px solid #E76F51;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 15px;
+    background: #fff;
+    transition:.8s;
+}
+button.button-bg {
+    background-color: #E76F51;
+    color:#fff;
+}
+button.border-button:hover {
+    background-color: #E76F51;
+    color:#fff;
 }
